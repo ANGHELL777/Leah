@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <metacharset="UTF-8">
+      <title>Div Background Image</title>
+      <style>
+      
+      .box{
+        width:300px;
+        height:300px;
+        padding:20px;
+        margin:100px auto;
+        box-shadow:0px 0px 20px 2px grey;
+        border:3px solid black;
+        font-family:sans-serif;
+        color: black;
+        background-image:url(My pic.jpg);
+        background-size:cover;
+        text-align:center;
+      }
+        
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+
+
+
+      
+ .box {
+      margin: 0 auto;
+      width: 500px;
+      padding: 20px;
+      background-color: #63666A;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      position: relative;
+      top: 100px; 
+      left: 0px; 
+    }
+
+    .box h1 {
+      position: absolute;
+      top: 0px;
+      left: 1px;
+      margin: 0 auto;
+      color: lightblue;
+    }
+    
+    .box h3 {
+      text-align: center;
+      color: yellow;
+    }
+    
+    .box p {
+      text-align: center;
+      color: white;
+    }
+
+    .box label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .box input[type="text"] {
+      width: 60%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .box input[type="password"] {
+      width: 80%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .box .button-box {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px; 
+    }
+
+    .box button {
+      width: 30%;
+      padding: 10px;
+      background-color: #0DAD8D;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .box button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>MANGAGO</h1>
+    <h3>Welcome to Mangago</h3>
+    <p>Welcome to the world where you can escape the judgemental and toxic reality</p>
+    <form>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <div class="button-container">
+        <button type="button">Sign-In</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
